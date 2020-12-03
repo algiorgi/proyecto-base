@@ -41,6 +41,13 @@
              <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
+                 <configuration>
+                     <archive>
+                         <manifest>
+                             <mainClass>ar.edu.untref.dyasc.Program</mainClass>
+                         </manifest>
+                     </archive>
+                 </configuration>
               </plugin>
         </plugins>
     </build>
