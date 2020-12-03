@@ -30,3 +30,9 @@ publishing {
         }
     }
 }
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'ar.edu.untref.dyasc.Program'
+    }
+}
