@@ -5,6 +5,7 @@
 plugins {
     id 'java'
     id 'maven-publish'
+    id 'com.adarshr.test-logger' version '2.1.1'
 }
 
 repositories {
