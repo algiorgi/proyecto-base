@@ -1,3 +1,54 @@
+/target
+
+# IntelliJ
 .idea/
 *.iml
-build/
+classes/
+
+# VSCode
+.vscode
+
+# Eclipse
+.classpath
+.project
+/.settings/
+.metadata/
+.tern-project
+/bin/
+
+# Archivos de Mac
+.DS_Store
+
+*#
+*.ipr
+*.iws
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+*.sw?
+*~
+.#*
+.*.md.html
+.factorypath
+.gradle
+.recommenders
+.springBeans
+/build
+/code
+MANIFEST.MF
+_site/
+activemq-data
+build
+build.log
+dependency-reduced-pom.xml
+dump.rdb
+interpolated*.xml
+lib/
+manifest.yml
+overridedb.*
+settings.xml
+transaction-logs
+.flattened-pom.xml
+secrets.yml
+.gradletasknamecache
+.sts4-cache
+out/
